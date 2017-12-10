@@ -12144,7 +12144,7 @@ IPC Nominal Density</description>
 <instance part="SUPPLY22" gate="G$1" x="66.04" y="-99.06"/>
 <instance part="SUPPLY24" gate="G$1" x="66.04" y="-147.32"/>
 <instance part="GND30" gate="1" x="220.98" y="-137.16"/>
-<instance part="SUPPLY25" gate="G$1" x="220.98" y="-106.68"/>
+<instance part="SUPPLY25" gate="G$1" x="220.98" y="-96.52"/>
 <instance part="GND31" gate="1" x="104.14" y="-101.6"/>
 <instance part="U$3" gate="G$1" x="116.84" y="-215.9"/>
 <instance part="R20" gate="G$1" x="147.32" y="-213.36"/>
@@ -12579,7 +12579,7 @@ IPC Nominal Density</description>
 <segment>
 <pinref part="P1" gate="G$1" pin="5"/>
 <wire x1="228.6" y1="-124.46" x2="220.98" y2="-124.46" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="-124.46" x2="220.98" y2="-109.22" width="0.1524" layer="91"/>
+<wire x1="220.98" y1="-124.46" x2="220.98" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="SUPPLY25" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
