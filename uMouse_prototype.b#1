@@ -162,21 +162,16 @@
 </layers>
 <board>
 <plain>
-<wire x1="5" y1="0" x2="85" y2="0" width="0" layer="20"/>
-<wire x1="90" y1="40" x2="90" y2="93" width="0" layer="20"/>
-<wire x1="83" y1="100" x2="7" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="90" y2="0" width="0" layer="20"/>
+<wire x1="90" y1="0" x2="90" y2="100" width="0" layer="20"/>
+<wire x1="90" y1="100" x2="0" y2="100" width="0" layer="20"/>
+<wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
+<dimension x1="5.08" y1="0" x2="85.08" y2="0" x3="45.08" y3="-3.81" textsize="1.778" layer="1"/>
+<rectangle x1="5.08" y1="0" x2="85.08" y2="26.6" layer="23"/>
 <dimension x1="5.08" y1="0" x2="5.08" y2="26.67" x3="-8.89" y3="13.335" textsize="1.778" layer="23"/>
-<hole x="9.25" y="5" drill="2.5"/>
-<hole x="9.25" y="23" drill="2.5"/>
-<wire x1="0" y1="93" x2="0" y2="40" width="0" layer="20"/>
-<wire x1="0" y1="40" x2="5" y2="40" width="0" layer="20"/>
-<wire x1="5" y1="40" x2="5" y2="0" width="0" layer="20"/>
-<wire x1="90" y1="40" x2="85" y2="40" width="0" layer="20"/>
-<wire x1="85" y1="40" x2="85" y2="0" width="0" layer="20"/>
-<hole x="80.25" y="23" drill="2.5"/>
-<hole x="80.25" y="5" drill="2.5"/>
-<wire x1="0" y1="93" x2="7" y2="100" width="0" layer="20"/>
-<wire x1="90" y1="93" x2="83" y2="100" width="0" layer="20"/>
+<wire x1="45.085" y1="99.695" x2="45.085" y2="26.67" width="0.254" layer="21"/>
+<hole x="4.25" y="5" drill="2.5"/>
+<hole x="4.25" y="23" drill="2.5"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
