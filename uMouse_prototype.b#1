@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mm" style="dots" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -177,6 +177,8 @@
 <hole x="80.25" y="5" drill="2.5"/>
 <wire x1="0" y1="93" x2="7" y2="100" width="0" layer="20"/>
 <wire x1="90" y1="93" x2="83" y2="100" width="0" layer="20"/>
+<hole x="9.25" y="30" drill="2.2"/>
+<hole x="80.25" y="30" drill="2.5"/>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -4282,11 +4284,11 @@ design rules under a new name.</description>
 </signal>
 </signals>
 <errors>
-<approved hash="19,1,a7bbddadda6ca07a"/>
-<approved hash="19,1,98b7bea1b9659f73"/>
-<approved hash="19,1,abb7d1a1d660ac76"/>
 <approved hash="19,1,afdad5ccd6d1acc7"/>
+<approved hash="19,1,98b7bea1b9659f73"/>
 <approved hash="19,1,9cdabaccb9d49fc2"/>
+<approved hash="19,1,a7bbddadda6ca07a"/>
+<approved hash="19,1,abb7d1a1d660ac76"/>
 <approved hash="19,1,a3d6d9c0dadda0cb"/>
 </errors>
 </board>

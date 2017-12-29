@@ -12747,10 +12747,6 @@ IPC Nominal Density</description>
 <part name="PT4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
 <part name="PT5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
 <part name="MPU-RESZTA-ŚWIATA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
-<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
-<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
-<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
-<part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="IR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" value="5mm IR"/>
@@ -12772,6 +12768,11 @@ IPC Nominal Density</description>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="100nF 6.3V"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="0R"/>
+<part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
+<part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
+<part name="SUPPLY28" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12964,10 +12965,6 @@ IPC Nominal Density</description>
 <instance part="PT4" gate="G$1" x="541.02" y="15.24"/>
 <instance part="PT5" gate="G$1" x="614.68" y="15.24"/>
 <instance part="MPU-RESZTA-ŚWIATA" gate="A" x="226.06" y="40.64"/>
-<instance part="R23" gate="G$1" x="111.76" y="45.72" rot="R270"/>
-<instance part="R24" gate="G$1" x="119.38" y="45.72" rot="R270"/>
-<instance part="SUPPLY2" gate="G$1" x="129.54" y="40.64"/>
-<instance part="SUPPLY28" gate="G$1" x="104.14" y="40.64"/>
 <instance part="SUPPLY29" gate="G$1" x="-12.7" y="149.86"/>
 <instance part="SUPPLY30" gate="G$1" x="-12.7" y="111.76" rot="MR0"/>
 <instance part="IR3" gate="G$1" x="467.36" y="129.54" smashed="yes">
@@ -12992,6 +12989,11 @@ IPC Nominal Density</description>
 <instance part="C30" gate="G$1" x="-5.08" y="15.24"/>
 <instance part="GND46" gate="1" x="-5.08" y="2.54"/>
 <instance part="JP5" gate="A" x="-35.56" y="-22.86"/>
+<instance part="R25" gate="G$1" x="116.84" y="53.34" rot="R180"/>
+<instance part="R23" gate="G$1" x="205.74" y="53.34" rot="R270"/>
+<instance part="R24" gate="G$1" x="198.12" y="53.34" rot="R270"/>
+<instance part="SUPPLY2" gate="G$1" x="198.12" y="63.5"/>
+<instance part="SUPPLY28" gate="G$1" x="205.74" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -13007,9 +13009,9 @@ IPC Nominal Density</description>
 <junction x="-73.66" y="106.68"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="VIN"/>
-<wire x1="109.22" y1="83.82" x2="121.92" y2="81.28" width="0.1524" layer="91"/>
-<label x="121.92" y="81.28" size="1.016" layer="95" xref="yes"/>
+<label x="124.46" y="53.34" size="1.016" layer="95" xref="yes"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<wire x1="121.92" y1="53.34" x2="124.46" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="+"/>
@@ -13582,20 +13584,6 @@ IPC Nominal Density</description>
 <pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="1"/>
 </segment>
 <segment>
-<pinref part="R24" gate="G$1" pin="2"/>
-<wire x1="119.38" y1="40.64" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="35.56" x2="129.54" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="35.56" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="40.64" x2="111.76" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="35.56" x2="104.14" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="35.56" x2="104.14" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="SUPPLY30" gate="G$1" pin="VCC"/>
 <wire x1="-12.7" y1="109.22" x2="-12.7" y2="104.14" width="0.1524" layer="91"/>
@@ -13641,6 +13629,16 @@ IPC Nominal Density</description>
 <wire x1="142.24" y1="139.7" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <junction x="127" y="142.24"/>
+</segment>
+<segment>
+<pinref part="R24" gate="G$1" pin="1"/>
+<wire x1="198.12" y1="58.42" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="R23" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="58.42" x2="205.74" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="SUPPLY28" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -13702,9 +13700,9 @@ IPC Nominal Density</description>
 <label x="515.62" y="111.76" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$5" gate="G$1" pin="PF7"/>
-<wire x1="73.66" y1="99.06" x2="68.58" y2="99.06" width="0.1524" layer="91"/>
-<label x="68.58" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="68.58" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="U$5" gate="G$1" pin="PA13"/>
+<wire x1="73.66" y1="96.52" x2="68.58" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="IR5_SIGNAL" class="0">
@@ -13982,46 +13980,44 @@ IPC Nominal Density</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="PC0"/>
-<wire x1="109.22" y1="66.04" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="58.42" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
-<label x="121.92" y="58.42" size="1.27" layer="95" xref="yes"/>
-<pinref part="R24" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="58.42" x2="121.92" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="50.8" x2="119.38" y2="58.42" width="0.1524" layer="91"/>
-<junction x="119.38" y="58.42"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="215.9" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
+<label x="193.04" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="3"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<wire x1="198.12" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="48.26" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
+<junction x="198.12" y="45.72"/>
 </segment>
 <segment>
 <pinref part="MPU-KRAJAN" gate="A" pin="4"/>
 <wire x1="223.52" y1="68.58" x2="215.9" y2="68.58" width="0.1524" layer="91"/>
 <label x="215.9" y="68.58" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="PB7"/>
+<wire x1="73.66" y1="86.36" x2="68.58" y2="86.36" width="0.1524" layer="91"/>
+<label x="68.58" y="86.36" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="U$5" gate="G$1" pin="PC1"/>
-<wire x1="109.22" y1="68.58" x2="111.76" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="68.58" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="60.96" x2="114.3" y2="60.96" width="0.1524" layer="91"/>
-<label x="114.3" y="60.96" size="1.27" layer="95" xref="yes"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<wire x1="111.76" y1="50.8" x2="111.76" y2="60.96" width="0.1524" layer="91"/>
-<junction x="111.76" y="60.96"/>
-</segment>
-<segment>
-<wire x1="223.52" y1="43.18" x2="215.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="215.9" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="223.52" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
+<label x="193.04" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="4"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<wire x1="205.74" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="48.26" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
+<junction x="205.74" y="43.18"/>
 </segment>
 <segment>
 <pinref part="MPU-KRAJAN" gate="A" pin="3"/>
 <wire x1="223.52" y1="71.12" x2="215.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="215.9" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="PB6"/>
+<wire x1="134.62" y1="91.44" x2="129.54" y2="91.44" width="0.1524" layer="91"/>
+<label x="129.54" y="91.44" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="INT" class="0">
@@ -14220,6 +14216,14 @@ IPC Nominal Density</description>
 <pinref part="JP5" gate="A" pin="6"/>
 <wire x1="-38.1" y1="-27.94" x2="-45.72" y2="-27.94" width="0.1524" layer="91"/>
 <label x="-45.72" y="-27.94" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$28" class="0">
+<segment>
+<pinref part="U$5" gate="G$1" pin="VIN"/>
+<wire x1="109.22" y1="83.82" x2="111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="83.82" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
