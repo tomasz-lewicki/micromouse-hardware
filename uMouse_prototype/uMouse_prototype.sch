@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="8.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -11276,7 +11275,7 @@ Nucleo F446RE</text>
 <description>&lt;b&gt;Pin Header Connectors&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1X05" urn="urn:adsk.eagle:footprint:22354/1" library_version="3">
+<package name="1X05" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
@@ -11327,7 +11326,7 @@ Nucleo F446RE</text>
 <rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
 <rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
 </package>
-<package name="1X05/90" urn="urn:adsk.eagle:footprint:22355/1" library_version="3">
+<package name="1X05/90" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-6.35" y1="-1.905" x2="-3.81" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-3.81" y1="-1.905" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
@@ -11368,7 +11367,7 @@ Nucleo F446RE</text>
 <rectangle x1="2.159" y1="-2.921" x2="2.921" y2="-1.905" layer="21"/>
 <rectangle x1="4.699" y1="-2.921" x2="5.461" y2="-1.905" layer="21"/>
 </package>
-<package name="1_05X2MM" urn="urn:adsk.eagle:footprint:22356/1" library_version="3">
+<package name="1_05X2MM" library_version="3">
 <description>CON-M-1X5-200</description>
 <text x="-4.5" y="1.5" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-4.75" y="-2.75" size="1.27" layer="27">&gt;VALUE</text>
@@ -11419,7 +11418,7 @@ Nucleo F446RE</text>
 <rectangle x1="1.746" y1="-0.254" x2="2.254" y2="0.254" layer="51"/>
 <rectangle x1="3.746" y1="-0.254" x2="4.254" y2="0.254" layer="51"/>
 </package>
-<package name="2X03" urn="urn:adsk.eagle:footprint:22348/1" library_version="2">
+<package name="2X03" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
@@ -11458,7 +11457,7 @@ Nucleo F446RE</text>
 <rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
 </package>
-<package name="2X03/90" urn="urn:adsk.eagle:footprint:22349/1" library_version="2">
+<package name="2X03/90" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-1.27" y1="-1.905" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
@@ -11494,7 +11493,7 @@ Nucleo F446RE</text>
 <rectangle x1="2.159" y1="-5.461" x2="2.921" y2="-4.699" layer="21"/>
 <rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-2.921" layer="51"/>
 </package>
-<package name="1X08" urn="urn:adsk.eagle:footprint:22262/1" library_version="3">
+<package name="1X08" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="5.715" y1="1.27" x2="6.985" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="6.985" y1="1.27" x2="7.62" y2="0.635" width="0.1524" layer="21"/>
@@ -11572,7 +11571,7 @@ Nucleo F446RE</text>
 <rectangle x1="-9.144" y1="-0.254" x2="-8.636" y2="0.254" layer="51"/>
 <rectangle x1="8.636" y1="-0.254" x2="9.144" y2="0.254" layer="51"/>
 </package>
-<package name="1X08/90" urn="urn:adsk.eagle:footprint:22261/1" library_version="3">
+<package name="1X08/90" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-10.16" y1="-1.905" x2="-7.62" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="-1.905" x2="-7.62" y2="0.635" width="0.1524" layer="21"/>
@@ -11634,7 +11633,7 @@ Nucleo F446RE</text>
 <rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 <rectangle x1="8.509" y1="-2.921" x2="9.271" y2="-1.905" layer="21"/>
 </package>
-<package name="1X02" urn="urn:adsk.eagle:footprint:22309/1" library_version="3">
+<package name="1X02" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-1.905" y1="1.27" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="-0.635" y1="1.27" x2="0" y2="0.635" width="0.1524" layer="21"/>
@@ -11658,7 +11657,7 @@ Nucleo F446RE</text>
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
-<package name="1X02/90" urn="urn:adsk.eagle:footprint:22310/1" library_version="3">
+<package name="1X02/90" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-2.54" y1="-1.905" x2="0" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="0" y1="-1.905" x2="0" y2="0.635" width="0.1524" layer="21"/>
@@ -11678,7 +11677,7 @@ Nucleo F446RE</text>
 <rectangle x1="-1.651" y1="-2.921" x2="-0.889" y2="-1.905" layer="21"/>
 <rectangle x1="0.889" y1="-2.921" x2="1.651" y2="-1.905" layer="21"/>
 </package>
-<package name="1X06" urn="urn:adsk.eagle:footprint:22361/1" library_version="3">
+<package name="1X06" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="0.635" y1="1.27" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="1.905" y1="1.27" x2="2.54" y2="0.635" width="0.1524" layer="21"/>
@@ -11738,7 +11737,7 @@ Nucleo F446RE</text>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
-<package name="1X06/90" urn="urn:adsk.eagle:footprint:22362/1" library_version="3">
+<package name="1X06/90" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-7.62" y1="-1.905" x2="-5.08" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="-1.905" x2="-5.08" y2="0.635" width="0.1524" layer="21"/>
@@ -11787,43 +11786,8 @@ Nucleo F446RE</text>
 <rectangle x1="5.969" y1="-2.921" x2="6.731" y2="-1.905" layer="21"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="1X05" urn="urn:adsk.eagle:package:22469/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X05/90" urn="urn:adsk.eagle:package:22467/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1_05X2MM" urn="urn:adsk.eagle:package:22466/2" type="model" library_version="3">
-<description>CON-M-1X5-200</description>
-</package3d>
-<package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model" library_version="2">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="2X03/90" urn="urn:adsk.eagle:package:22464/1" type="box" library_version="2">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X08" urn="urn:adsk.eagle:package:22409/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X08/90" urn="urn:adsk.eagle:package:22413/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X02/90" urn="urn:adsk.eagle:package:22437/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X06" urn="urn:adsk.eagle:package:22472/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-<package3d name="1X06/90" urn="urn:adsk.eagle:package:22475/2" type="model" library_version="3">
-<description>PIN HEADER</description>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="PINHD5" urn="urn:adsk.eagle:symbol:22353/1" library_version="3">
+<symbol name="PINHD5" library_version="3">
 <wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-7.62" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="7.62" x2="-6.35" y2="7.62" width="0.4064" layer="94"/>
@@ -11836,7 +11800,7 @@ Nucleo F446RE</text>
 <pin name="4" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="5" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="PINH2X3" urn="urn:adsk.eagle:symbol:22347/1" library_version="2">
+<symbol name="PINH2X3" library_version="2">
 <wire x1="-6.35" y1="-5.08" x2="8.89" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="-5.08" x2="8.89" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="8.89" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
@@ -11850,7 +11814,7 @@ Nucleo F446RE</text>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="5.08" y="-2.54" visible="pad" length="short" direction="pas" function="dot" rot="R180"/>
 </symbol>
-<symbol name="PINHD8" urn="urn:adsk.eagle:symbol:22260/1" library_version="3">
+<symbol name="PINHD8" library_version="3">
 <wire x1="-6.35" y1="-10.16" x2="1.27" y2="-10.16" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-10.16" x2="1.27" y2="12.7" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="12.7" x2="-6.35" y2="12.7" width="0.4064" layer="94"/>
@@ -11866,7 +11830,7 @@ Nucleo F446RE</text>
 <pin name="7" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="8" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="PINHD2" urn="urn:adsk.eagle:symbol:22308/1" library_version="3">
+<symbol name="PINHD2" library_version="3">
 <wire x1="-6.35" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="1.27" y2="5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="5.08" x2="-6.35" y2="5.08" width="0.4064" layer="94"/>
@@ -11876,7 +11840,7 @@ Nucleo F446RE</text>
 <pin name="1" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="2" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 </symbol>
-<symbol name="PINHD6" urn="urn:adsk.eagle:symbol:22360/1" library_version="3">
+<symbol name="PINHD6" library_version="3">
 <wire x1="-6.35" y1="-7.62" x2="1.27" y2="-7.62" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-7.62" x2="1.27" y2="10.16" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="10.16" x2="-6.35" y2="10.16" width="0.4064" layer="94"/>
@@ -11892,7 +11856,7 @@ Nucleo F446RE</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PINHD-1X5" urn="urn:adsk.eagle:component:22529/4" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X5" prefix="JP" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD5" x="0" y="0"/>
@@ -11906,9 +11870,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="4" pad="4"/>
 <connect gate="A" pin="5" pad="5"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22469/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11921,9 +11882,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="4" pad="4"/>
 <connect gate="A" pin="5" pad="5"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22467/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11936,16 +11894,13 @@ Nucleo F446RE</text>
 <connect gate="A" pin="4" pad="4"/>
 <connect gate="A" pin="5" pad="5"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22466/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-2X3" urn="urn:adsk.eagle:component:22532/2" prefix="JP" uservalue="yes" library_version="2">
+<deviceset name="PINHD-2X3" prefix="JP" uservalue="yes" library_version="2">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINH2X3" x="0" y="0"/>
@@ -11960,9 +11915,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="5" pad="5"/>
 <connect gate="A" pin="6" pad="6"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22462/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11976,16 +11928,13 @@ Nucleo F446RE</text>
 <connect gate="A" pin="5" pad="5"/>
 <connect gate="A" pin="6" pad="6"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22464/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X8" urn="urn:adsk.eagle:component:22503/4" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X8" prefix="JP" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD8" x="0" y="0"/>
@@ -12002,9 +11951,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22409/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12020,16 +11966,13 @@ Nucleo F446RE</text>
 <connect gate="A" pin="7" pad="7"/>
 <connect gate="A" pin="8" pad="8"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22413/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X2" urn="urn:adsk.eagle:component:22516/3" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X2" prefix="JP" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="PINHD2" x="0" y="0"/>
@@ -12040,9 +11983,6 @@ Nucleo F446RE</text>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22435/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12052,16 +11992,13 @@ Nucleo F446RE</text>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22437/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PINHD-1X6" urn="urn:adsk.eagle:component:22533/3" prefix="JP" uservalue="yes" library_version="3">
+<deviceset name="PINHD-1X6" prefix="JP" uservalue="yes" library_version="3">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
 <gate name="A" symbol="PINHD6" x="0" y="-2.54"/>
@@ -12076,9 +12013,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="5" pad="5"/>
 <connect gate="A" pin="6" pad="6"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22472/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12092,9 +12026,6 @@ Nucleo F446RE</text>
 <connect gate="A" pin="5" pad="5"/>
 <connect gate="A" pin="6" pad="6"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:22475/2"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12110,7 +12041,7 @@ Nucleo F446RE</text>
 &lt;br&gt;
 To report issues with this library go to &lt;a href=https://github.com/NordicSemiconductor/nrf5-eagle-reference-design/blob/master/Library/Nordic_nRF.lbr&gt;github&lt;/a&gt;</description>
 <packages>
-<package name="RESC0402_L" urn="urn:adsk.eagle:footprint:169014/1" library_version="6">
+<package name="RESC0402_L" library_version="6">
 <description>&lt;b&gt;0402&lt;/b&gt; chip &lt;p&gt;
 
 0402 (imperial)&lt;br/&gt;
@@ -12130,7 +12061,7 @@ IPC High Density</description>
 <wire x1="-0.85" y1="0.4" x2="-0.85" y2="-0.4" width="0.1" layer="39"/>
 <wire x1="-0.85" y1="-0.4" x2="0.85" y2="-0.4" width="0.1" layer="39"/>
 </package>
-<package name="RESC0201_L" urn="urn:adsk.eagle:footprint:169015/1" library_version="6">
+<package name="RESC0201_L" library_version="6">
 <description>&lt;b&gt;0201&lt;/b&gt; chip&lt;p&gt;
 0201 (imperial)&lt;br/&gt;
 0603 (metric)&lt;br/&gt;
@@ -12148,7 +12079,7 @@ IPC High Density</description>
 <wire x1="0.5" y1="0.3" x2="-0.5" y2="0.3" width="0.1" layer="39"/>
 <wire x1="-0.5" y1="0.3" x2="-0.5" y2="-0.3" width="0.1" layer="39"/>
 </package>
-<package name="RESC0201_M" urn="urn:adsk.eagle:footprint:169016/1" library_version="6">
+<package name="RESC0201_M" library_version="6">
 <description>&lt;b&gt;0201&lt;/b&gt; chip&lt;p&gt;
 0201 (imperial)&lt;br/&gt;
 0603 (metric)&lt;br/&gt;
@@ -12166,7 +12097,7 @@ IPC Low Density</description>
 <wire x1="-0.8" y1="0.5" x2="-0.8" y2="-0.5" width="0.1" layer="39"/>
 <wire x1="-0.8" y1="-0.5" x2="0.8" y2="-0.5" width="0.1" layer="39"/>
 </package>
-<package name="RESC0201_N" urn="urn:adsk.eagle:footprint:169017/1" library_version="6">
+<package name="RESC0201_N" library_version="6">
 <description>&lt;b&gt;0201&lt;/b&gt; chip&lt;p&gt;
 0201 (imperial)&lt;br/&gt;
 0603 (metric)&lt;br/&gt;
@@ -12184,7 +12115,7 @@ IPC Nominal Density</description>
 <wire x1="-0.65" y1="0.35" x2="-0.65" y2="-0.35" width="0.1" layer="39"/>
 <wire x1="-0.65" y1="-0.35" x2="0.65" y2="-0.35" width="0.1" layer="39"/>
 </package>
-<package name="RESC0402_M" urn="urn:adsk.eagle:footprint:169018/1" library_version="6">
+<package name="RESC0402_M" library_version="6">
 <description>&lt;b&gt;0402&lt;/b&gt; chip &lt;p&gt;
 
 0402 (imperial)&lt;br/&gt;
@@ -12204,7 +12135,7 @@ IPC Low Density</description>
 <wire x1="-1.15" y1="0.55" x2="-1.15" y2="-0.55" width="0.1" layer="39"/>
 <wire x1="-1.15" y1="-0.55" x2="1.15" y2="-0.55" width="0.1" layer="39"/>
 </package>
-<package name="RESC0402_N" urn="urn:adsk.eagle:footprint:169019/1" library_version="6">
+<package name="RESC0402_N" library_version="6">
 <description>&lt;b&gt;0402&lt;/b&gt; chip &lt;p&gt;
 
 0402 (imperial)&lt;br/&gt;
@@ -12224,7 +12155,7 @@ IPC Nominal Density</description>
 <wire x1="-1" y1="0.45" x2="-1" y2="-0.45" width="0.1" layer="39"/>
 <wire x1="-1" y1="-0.45" x2="1" y2="-0.45" width="0.1" layer="39"/>
 </package>
-<package name="RESC0603_L" urn="urn:adsk.eagle:footprint:169020/1" library_version="6">
+<package name="RESC0603_L" library_version="6">
 <description>&lt;b&gt;0603&lt;/b&gt; chip &lt;p&gt;
 
 0603 (imperial)&lt;br/&gt;
@@ -12244,7 +12175,7 @@ IPC High Density</description>
 <wire x1="-1.25" y1="0.5" x2="-1.25" y2="-0.5" width="0.1" layer="39"/>
 <wire x1="-1.25" y1="-0.5" x2="1.25" y2="-0.5" width="0.1" layer="39"/>
 </package>
-<package name="RESC0603_M" urn="urn:adsk.eagle:footprint:169021/1" library_version="6">
+<package name="RESC0603_M" library_version="6">
 <description>&lt;b&gt;0603&lt;/b&gt; chip &lt;p&gt;
 
 0603 (imperial)&lt;br/&gt;
@@ -12264,7 +12195,7 @@ IPC High Density</description>
 <wire x1="-2" y1="1" x2="-2" y2="-1" width="0.1" layer="39"/>
 <wire x1="-2" y1="-1" x2="2" y2="-1" width="0.1" layer="39"/>
 </package>
-<package name="RESC0603_N" urn="urn:adsk.eagle:footprint:169022/1" library_version="6">
+<package name="RESC0603_N" library_version="6">
 <description>&lt;b&gt;0603&lt;/b&gt; chip &lt;p&gt;
 
 0603 (imperial)&lt;br/&gt;
@@ -12284,7 +12215,7 @@ IPC Nominal Density</description>
 <wire x1="-1.6" y1="0.7" x2="-1.6" y2="-0.7" width="0.1" layer="39"/>
 <wire x1="-1.6" y1="-0.7" x2="1.6" y2="-0.7" width="0.1" layer="39"/>
 </package>
-<package name="RESC0805_L" urn="urn:adsk.eagle:footprint:169023/1" library_version="6">
+<package name="RESC0805_L" library_version="6">
 <description>&lt;b&gt;0805&lt;/b&gt;chip&lt;p&gt;
 
 0805 (imperial)&lt;br/&gt;
@@ -12304,7 +12235,7 @@ IPC High Density</description>
 <wire x1="-1.6" y1="0.75" x2="-1.6" y2="-0.75" width="0.1" layer="39"/>
 <wire x1="-1.6" y1="-0.75" x2="1.6" y2="-0.75" width="0.1" layer="39"/>
 </package>
-<package name="RESC0805_M" urn="urn:adsk.eagle:footprint:169024/1" library_version="6">
+<package name="RESC0805_M" library_version="6">
 <description>&lt;b&gt;0805&lt;/b&gt;chip&lt;p&gt;
 
 0805 (imperial)&lt;br/&gt;
@@ -12324,7 +12255,7 @@ IPC Low Density</description>
 <wire x1="-2.4" y1="1.2" x2="-2.4" y2="-1.2" width="0.1" layer="39"/>
 <wire x1="-2.4" y1="-1.2" x2="2.4" y2="-1.2" width="0.1" layer="39"/>
 </package>
-<package name="RESC0805_N" urn="urn:adsk.eagle:footprint:169025/1" library_version="6">
+<package name="RESC0805_N" library_version="6">
 <description>&lt;b&gt;0805&lt;/b&gt;chip&lt;p&gt;
 
 0805 (imperial)&lt;br/&gt;
@@ -12345,91 +12276,8 @@ IPC Nominal Density</description>
 <wire x1="-1.95" y1="-0.95" x2="1.85" y2="-0.95" width="0.1" layer="39"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="RESC0402_L" urn="urn:adsk.eagle:package:169044/1" type="box" library_version="6">
-<description>0402 chip 
-
-0402 (imperial)
-1005 (metric)
-IPC High Density</description>
-</package3d>
-<package3d name="RESC0201_L" urn="urn:adsk.eagle:package:169045/1" type="box" library_version="6">
-<description>0201 chip
-0201 (imperial)
-0603 (metric)
-IPC High Density</description>
-</package3d>
-<package3d name="RESC0201_M" urn="urn:adsk.eagle:package:169046/1" type="box" library_version="6">
-<description>0201 chip
-0201 (imperial)
-0603 (metric)
-IPC Low Density</description>
-</package3d>
-<package3d name="RESC0201_N" urn="urn:adsk.eagle:package:169050/1" type="box" library_version="6">
-<description>0201 chip
-0201 (imperial)
-0603 (metric)
-IPC Nominal Density</description>
-</package3d>
-<package3d name="RESC0402_M" urn="urn:adsk.eagle:package:169048/1" type="box" library_version="6">
-<description>0402 chip 
-
-0402 (imperial)
-1005 (metric)
-IPC Low Density</description>
-</package3d>
-<package3d name="RESC0402_N" urn="urn:adsk.eagle:package:169047/1" type="box" library_version="6">
-<description>0402 chip 
-
-0402 (imperial)
-1005 (metric)
-IPC Nominal Density</description>
-</package3d>
-<package3d name="RESC0603_L" urn="urn:adsk.eagle:package:169049/1" type="box" library_version="6">
-<description>0603 chip 
-
-0603 (imperial)
-1608 (metric)
-IPC High Density</description>
-</package3d>
-<package3d name="RESC0603_M" urn="urn:adsk.eagle:package:169051/1" type="box" library_version="6">
-<description>0603 chip 
-
-0603 (imperial)
-1608 (metric)
-IPC High Density</description>
-</package3d>
-<package3d name="RESC0603_N" urn="urn:adsk.eagle:package:169054/1" type="box" library_version="6">
-<description>0603 chip 
-
-0603 (imperial)
-1608 (metric)
-IPC Nominal Density</description>
-</package3d>
-<package3d name="RESC0805_L" urn="urn:adsk.eagle:package:169052/1" type="box" library_version="6">
-<description>0805chip
-
-0805 (imperial)
-2012 (metric)
-IPC High Density</description>
-</package3d>
-<package3d name="RESC0805_M" urn="urn:adsk.eagle:package:169055/1" type="box" library_version="6">
-<description>0805chip
-
-0805 (imperial)
-2012 (metric)
-IPC Low Density</description>
-</package3d>
-<package3d name="RESC0805_N" urn="urn:adsk.eagle:package:169053/1" type="box" library_version="6">
-<description>0805chip
-
-0805 (imperial)
-2012 (metric)
-IPC Nominal Density</description>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="L-US" urn="urn:adsk.eagle:symbol:169013/1" library_version="6">
+<symbol name="L-US" library_version="6">
 <wire x1="0" y1="5.08" x2="1.27" y2="3.81" width="0.254" layer="94" curve="-90"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="3.81" width="0.254" layer="94" curve="90"/>
 <wire x1="0" y1="2.54" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90"/>
@@ -12445,7 +12293,7 @@ IPC Nominal Density</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="INDUCTOR" urn="urn:adsk.eagle:component:169068/1" uservalue="yes" library_version="6">
+<deviceset name="INDUCTOR" uservalue="yes" library_version="6">
 <description>&lt;b&gt;Generic chip inductor&lt;/b&gt;</description>
 <gates>
 <gate name="L$1" symbol="L-US" x="0" y="0"/>
@@ -12456,9 +12304,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169044/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12468,9 +12313,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169045/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12480,9 +12322,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169046/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12492,9 +12331,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169050/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12504,9 +12340,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169048/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12516,9 +12349,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169047/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12528,9 +12358,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169049/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12540,9 +12367,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169051/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12552,9 +12376,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169054/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12564,9 +12385,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169052/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12576,9 +12394,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169055/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12588,9 +12403,6 @@ IPC Nominal Density</description>
 <connect gate="L$1" pin="1" pad="1"/>
 <connect gate="L$1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:169053/1"/>
-</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -12736,9 +12548,9 @@ IPC Nominal Density</description>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="U$5" library="st-morpho" deviceset="ST_MORPHO_STM32_F446RE" device=""/>
 <part name="IR1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" value="5mm IR"/>
-<part name="MPU-KRAJAN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device="" package3d_urn="urn:adsk.eagle:package:22469/2"/>
-<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device="" package3d_urn="urn:adsk.eagle:package:22462/2"/>
+<part name="MPU-KRAJAN" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X5" device=""/>
+<part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device=""/>
+<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X3" device=""/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PT1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
@@ -12746,19 +12558,19 @@ IPC Nominal Density</description>
 <part name="PT3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
 <part name="PT4" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
 <part name="PT5" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="3MM"/>
-<part name="MPU-RESZTA-ŚWIATA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
+<part name="MPU-RESZTA-SWIATA" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device=""/>
 <part name="SUPPLY29" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="SUPPLY30" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="IR3" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="LED" device="5MM" value="5mm IR"/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U$2" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0805_L" package3d_urn="urn:adsk.eagle:package:169052/1"/>
+<part name="U$2" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="INDUCTOR" device="_0805_L"/>
 <part name="SUPPLY31" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="VCC" device=""/>
 <part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="100nF 6.3V"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
-<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device=""/>
+<part name="JP4" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device=""/>
 <part name="IC3" library="lm1117" deviceset="LM1117IMPX-*" device="" technology="5.0"/>
 <part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="1uF 16V"/>
 <part name="GND43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12767,7 +12579,7 @@ IPC Nominal Density</description>
 <part name="GND45" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C30" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0805K" value="100nF 6.3V"/>
 <part name="GND46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device="" package3d_urn="urn:adsk.eagle:package:22472/2"/>
+<part name="JP5" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X6" device=""/>
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="0R"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="M0805" value="1k"/>
@@ -12964,7 +12776,7 @@ IPC Nominal Density</description>
 <instance part="PT3" gate="G$1" x="467.36" y="15.24"/>
 <instance part="PT4" gate="G$1" x="541.02" y="15.24"/>
 <instance part="PT5" gate="G$1" x="614.68" y="15.24"/>
-<instance part="MPU-RESZTA-ŚWIATA" gate="A" x="226.06" y="40.64"/>
+<instance part="MPU-RESZTA-SWIATA" gate="A" x="226.06" y="40.64"/>
 <instance part="SUPPLY29" gate="G$1" x="-12.7" y="149.86"/>
 <instance part="SUPPLY30" gate="G$1" x="-12.7" y="111.76" rot="MR0"/>
 <instance part="IR3" gate="G$1" x="467.36" y="129.54" smashed="yes">
@@ -13274,7 +13086,7 @@ IPC Nominal Density</description>
 <segment>
 <wire x1="223.52" y1="48.26" x2="215.9" y2="48.26" width="0.1524" layer="91"/>
 <label x="215.9" y="48.26" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="2"/>
+<pinref part="MPU-RESZTA-SWIATA" gate="A" pin="2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY8" gate="G$1" pin="AGND"/>
@@ -13581,7 +13393,7 @@ IPC Nominal Density</description>
 <segment>
 <wire x1="223.52" y1="50.8" x2="215.9" y2="50.8" width="0.1524" layer="91"/>
 <label x="215.9" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="1"/>
+<pinref part="MPU-RESZTA-SWIATA" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
@@ -13982,7 +13794,7 @@ IPC Nominal Density</description>
 <segment>
 <wire x1="223.52" y1="45.72" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
 <label x="193.04" y="45.72" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="3"/>
+<pinref part="MPU-RESZTA-SWIATA" gate="A" pin="3"/>
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="198.12" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="48.26" x2="198.12" y2="45.72" width="0.1524" layer="91"/>
@@ -14003,7 +13815,7 @@ IPC Nominal Density</description>
 <segment>
 <wire x1="223.52" y1="43.18" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
 <label x="193.04" y="43.18" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="4"/>
+<pinref part="MPU-RESZTA-SWIATA" gate="A" pin="4"/>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="205.74" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="48.26" x2="205.74" y2="43.18" width="0.1524" layer="91"/>
@@ -14033,7 +13845,7 @@ IPC Nominal Density</description>
 </segment>
 <segment>
 <label x="215.9" y="33.02" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="MPU-RESZTA-ŚWIATA" gate="A" pin="8"/>
+<pinref part="MPU-RESZTA-SWIATA" gate="A" pin="8"/>
 <wire x1="223.52" y1="33.02" x2="215.9" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -14247,19 +14059,9 @@ Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
 </note>
 <note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
+Since Version 8.2, Eagle supports online libraries. The ids
 of those online libraries will not be understood (or retained)
 with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
